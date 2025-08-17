@@ -1,0 +1,21 @@
+{
+  "name": "amazon-seller-discord-bot",
+  "version": "1.0.0",
+  "description": "Discord bot for Amazon sellers supporting Haitian Creole and English",
+  "main": "bot.js",
+  "scripts": {
+    "start": "node bot.js",
+    "dev": "nodemon bot.js"
+  },
+  "dependencies": {
+    "discord.js": "^14.13.0",
+    "openai": "^4.20.0",
+    "dotenv": "^16.3.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  },
+  "keywords": ["discord", "bot", "amazon", "seller", "haitian-creole"],
+  "author": "Your Name",
+  "license": "MIT"
+}
